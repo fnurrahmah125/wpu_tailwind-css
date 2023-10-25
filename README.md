@@ -49,3 +49,14 @@ A Utility-first CSS Framework that packed with classes
 | ➖ Pembuatan lebih lama     | ➖ Tidak ada kendali              | ➖ Code HTML menjadi "jelek" |
 |                             | ➖ Banyak code CSS tidak terpakai | ➖ Harus paham CSS           |
 |                             | ➖ Website terlihat mirip         |                              |
+
+## Requirements
+
+- Web browser
+- Code editor
+- VSCode extension:
+  - Tailwind CSS Intellisense
+  - Live Preview
+  - PostCSS Language Support
+- Package manager
+- Terminal
