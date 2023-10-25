@@ -28,6 +28,8 @@ A Utility-first CSS Framework that packed with classes
 - Custom Styles
 - Functions & Directives
 
+## UI Frameworks vs Utility-first-Frameworks
+
 | UI Frameworks | Utility-first-Frameworks |
 | ------------- | ------------------------ |
 | Bootstrap     | Tailwind CSS             |
@@ -36,6 +38,8 @@ A Utility-first CSS Framework that packed with classes
 | Semantic UI   | Basscss                  |
 | Bulma         | Expressive CSS           |
 | ...           | ...                      |
+
+## Vanilla CSS vs Bootstrap 5 vs TailwindCSS 3
 
 | Vanilla CSS                 | Bootstrap 5                       | TailwindCSS 3                |
 | --------------------------- | --------------------------------- | ---------------------------- |
