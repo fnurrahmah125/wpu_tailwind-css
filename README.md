@@ -37,11 +37,11 @@ A Utility-first CSS Framework that packed with classes
 | Bulma         | Expressive CSS           |
 | ...           | ...                      |
 
-| Vanilla CSS                     | Bootstrap 5                            | TailwindCSS 3                     |
-| ------------------------------- | -------------------------------------- | --------------------------------- |
-| :plus: Kendali penuh            | :plus: Pembuatan sangat cepat          | :plus: Pembuatan lebih cepat\*    |
-| :plus: Code CSS lebih optimal\* | :plus: Sangat ramah untuk pemula       | :plus: Mengikuti best practices   |
-| :minus: Buat semuanya dari awal | :plus: Komponen siap untuk digunakan   | :plus: Code CSS optimal           |
-| :minus: Pembuatan lebih lama    | :minus: Tidak ada kendali              | :minus: Code HTML menjadi "jelek" |
-|                                 | :minus: Banyak code CSS tidak terpakai | :minus: Harus paham CSS           |
-|                                 | :minus: Website terlihat mirip         |                                   |
+| Vanilla CSS                 | Bootstrap 5                       | TailwindCSS 3                |
+| --------------------------- | --------------------------------- | ---------------------------- |
+| ➕ Kendali penuh            | ➕ Pembuatan sangat cepat         | ➕ Pembuatan lebih cepat\*   |
+| ➕ Code CSS lebih optimal\* | ➕ Sangat ramah untuk pemula      | ➕ Mengikuti best practices  |
+| ➖ Buat semuanya dari awal  | ➕ Komponen siap untuk digunakan  | ➕ Code CSS optimal          |
+| ➖ Pembuatan lebih lama     | ➖ Tidak ada kendali              | ➖ Code HTML menjadi "jelek" |
+|                             | ➖ Banyak code CSS tidak terpakai | ➖ Harus paham CSS           |
+|                             | ➖ Website terlihat mirip         |                              |
