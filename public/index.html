@@ -3,21 +3,152 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tailwind CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/style.css" />
+    <title>Tailwind CSS</title>
   </head>
-  <body>
-    <h1 class="text-3xl font-bold underline">Hello Tailwind!</h1>
-    <a
-      href="#"
-      class="bg-green-500 p-3 text-white inline-block rounded m-3 shadow hover:bg-green-700"
-      >Button</a
-    >
-    <p class="m-3 bg-yellow-200">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod nihil
-      doloremque eius praesentium? Dolorum esse odit quia fuga consequuntur
-      autem sequi praesentium voluptas consequatur, facere aspernatur deleniti?
-      Nobis, qui sit.
-    </p>
+  <body class="p-3 mb-96 dark:bg-slate-600 dark:text-slate-200">
+    <h1 class="text-center text-9xl font-extrabold">
+      <span
+        class="bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent"
+        >Tailwind CSS</span
+      >
+    </h1>
+    <section class="mb-5">
+      <h2 class="text-2xl mb-2">Custom spacing</h2>
+      <div class="ml-13">Margin (ml-13)</div>
+    </section>
+    <section class="mb-5">
+      <h2 class="text-2xl mb-2">Custom typography</h2>
+      <div class="font-playpen">New font style</div>
+    </section>
+    <section class="mb-5">
+      <h2 class="text-2xl mb-2">Custom text color</h2>
+      <div class="text-lg font-bold text-custom">YELLOW</div>
+    </section>
+    <section class="mb-5">
+      <h2 class="text-2xl mb-2">Custom font size</h2>
+      <p class="text-[29px]">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
+        illum.
+      </p>
+    </section>
+    <section>
+      <div
+        class="max-w-xl h-96 bg-slate-300 mx-auto mt-[42px] overflow-y-scroll bg-scroll bg-cover"
+        style="
+          background-image: url('https://source.unsplash.com/1000x600?cat');
+        "
+      >
+        <p class="p-5 text-2xl">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+          architecto itaque esse perferendis iste ipsum quasi error dolores!
+          Quis adipisci, at suscipit assumenda et repudiandae perferendis sint
+          delectus atque soluta amet ab, earum rerum, asperiores magni possimus
+          ullam autem. Ipsum dolore maxime fugit magni, temporibus, rerum error
+          veniam eum explicabo libero voluptatem inventore vitae dicta deserunt
+          cupiditate reiciendis ut sequi repellendus laudantium perferendis
+          architecto magnam incidunt amet nulla. Quidem unde magni tempore
+          libero, voluptas ipsam dolores nemo fugit molestias atque quis facere
+          officiis? Officia maiores mollitia corrupti est veniam vero
+          accusantium, quam nostrum aperiam et rem, perferendis ipsum recusandae
+          iste.
+        </p>
+      </div>
+      <div
+        class="mt-32 max-w-xl mx-auto h-96 bg-slate-300 bg-cover rounded-2xl shadow-xl shadow-slate-500 overflow-hidden border-8"
+        style="
+          background-image: url('https://source.unsplash.com/1000x600?computer');
+        "
+      >
+        <div class="w-full h-full bg-blue-300 mix-blend-multiply flex"></div>
+      </div>
+      <div class="mb-96"></div>
+    </section>
+    <section>
+      <h2 class="text-2xl">Button</h2>
+      <button
+        class="my-10 bg-sky-500 px-5 py-2 rounded-full text-white font-semibold block mx-auto hover:bg-sky-600 active:bg-sky-700 focus:ring focus:ring-sky-300 dark:bg-slate-300 dark:text-slate-800 dark:hover:text-slate-900 dark:hover:bg-slate-100"
+      >
+        Save
+      </button>
+    </section>
+    <section class="mb-5">
+      <h2 class="text-2xl">Card</h2>
+      <div
+        class="max-w-lg my-10 border border-slate-200 rounded-xl mx-auto p-5 shadow-md hover:bg-sky-500 group dark:hover:bg-slate-300"
+      >
+        <h5
+          class="font-bold text-slate-700 text-lg mb-3 group-hover:text-white dark:group-hover:text-slate-800"
+        >
+          My Card
+        </h5>
+        <p
+          class="text-slate-600 group-hover:text-white selection:bg-purple-500 selection:text-slate-900 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:float-left first-letter:mr-3 dark:group-hover:text-slate-800"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eius
+          tempore quis hic vitae illum quaerat, eveniet placeat! Consequuntur
+          mollitia ipsum ab dolorem ducimus porro, iure nam nemo odio ut alias
+          hic facere expedita quis illo obcaecati quibusdam ea, assumenda
+          quaerat modi aliquid. Unde fugiat rerum ab distinctio odit quidem quia
+          quas incidunt? Quidem laboriosam ipsum repellat minima perspiciatis
+          labore amet nesciunt numquam cumque aliquam cupiditate eum, ratione
+          veritatis quibusdam porro ipsam fugit. Quaerat aut ipsam laudantium a
+          distinctio vitae iste dolores optio, at qui aliquid quod. Fuga, magni
+          officia fugiat, adipisci suscipit mollitia rem, aspernatur error
+          placeat impedit sed.
+        </p>
+      </div>
+      <div
+        class="max-w-lg border border-slate-200 rounded-xl mx-auto shadow-md p-5"
+      >
+        <form action="">
+          <label for="email">
+            <span
+              class="block font-semibold mb-1 text-slate-700 after:content-['*'] after:text-pink-500 after:ml-0.5"
+              >Email</span
+            >
+            <input
+              type="email"
+              id="email"
+              placeholder="Email..."
+              class="px-3 py-2 border shadow rounded w-full block text-sm placeholder:text-slate-400 focus:outline-none focus:ring-1 focus:ring-sky-500 focus:border-sky-500 invalid:text-pink-700 invalid:focus:ring-pink-700 invalid:focus:border-pink-700 peer"
+            />
+            <p class="text-sm m-1 text-pink-700 invisible peer-invalid:visible">
+              Email is not valid
+            </p>
+          </label>
+        </form>
+      </div>
+    </section>
+    <section>
+      <div class="flex justify-center">
+        <span class="text-sm text-slate-500 mr-2">Light</span>
+        <input type="checkbox" id="toggle" class="hidden" />
+        <label for="toggle">
+          <div
+            class="w-9 h-5 bg-slate-500 rounded-full flex items-center ring-1 ring-slate-200 cursor-pointer"
+          >
+            <div class="w-4 h-4 bg-white rounded-full toggle-circle"></div>
+          </div>
+        </label>
+        <span class="text-sm text-slate-500 ml-2">Dark</span>
+      </div>
+    </section>
+    <script>
+      const checkbox = document.querySelector("#toggle");
+      const html = document.querySelector("html");
+
+      checkbox.addEventListener("click", function () {
+        checkbox.checked
+          ? html.classList.add("dark")
+          : html.classList.remove("dark");
+      });
+    </script>
   </body>
 </html>
