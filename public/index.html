@@ -7,17 +7,106 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <h1 class="text-3xl font-bold underline">Hello Tailwind!</h1>
-    <a
-      href="#"
-      class="bg-green-500 p-3 text-white inline-block rounded m-3 shadow hover:bg-green-700"
-      >Button</a
-    >
-    <p class="m-3 bg-yellow-200">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod nihil
-      doloremque eius praesentium? Dolorum esse odit quia fuga consequuntur
-      autem sequi praesentium voluptas consequatur, facere aspernatur deleniti?
-      Nobis, qui sit.
-    </p>
+    <h1 class="text-xl font-bold">New Features in Tailwind CSS 3</h1>
+    <div class="kotak">
+      <span class="m-auto">ini tulisan</span>
+    </div>
+    <div class="w-full h-96 bg-slate-100 mb-10 flex">
+      <div class="w-96 h-64 bg-tema/10 m-auto rounded-lg">
+        <h2 class="font-bold text-tema/100 text-2xl text-center py-5">
+          My Form
+        </h2>
+        <div class="px-10 mb-5">
+          <label for="email" class="block text-tema/100 mb-2"> Email </label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="w-full px-4 py-2 rounded-md"
+            placeholder="Email..."
+          />
+        </div>
+        <div class="flex">
+          <button class="bg-tema/90 text-white px-4 py-2 rounded-md m-auto">
+            Kirim
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="p-8">
+      <table class="w-full text-sm border-separate border-spacing-4">
+        <thead class="bg-slate-100">
+          <tr class="text-center">
+            <th
+              class="w-1/2 border border-slate-300 font-semibold p-4 text-slate-900"
+            >
+              Provinsi
+            </th>
+            <th
+              class="w-1/2 border border-slate-300 font-semibold p-4 text-slate-900"
+            >
+              Ibu Kota
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="text-center">
+            <td class="w-1/2 border border-slate-300 p-4 text-slate-700">
+              Provinsi 1
+            </td>
+            <td class="w-1/2 border border-slate-300 p-4 text-slate-700">
+              Ibu Kota 1
+            </td>
+          </tr>
+          <tr class="text-center">
+            <td class="w-1/2 border border-slate-300 p-4 text-slate-700">
+              Provinsi 2
+            </td>
+            <td class="w-1/2 border border-slate-300 p-4 text-slate-700">
+              Ibu Kota 2
+            </td>
+          </tr>
+          <tr class="text-center">
+            <td class="w-1/2 border border-slate-300 p-4 text-slate-700">
+              Provinsi 3
+            </td>
+            <td class="w-1/2 border border-slate-300 p-4 text-slate-700">
+              Ibu Kota 3
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="mb-10">
+      <ul
+        class="[&>*]:bg-yellow-200 [&>*]:text-slate-800 [&>li:nth-child(3)]:bg-sky-100"
+      >
+        <li
+          class="w-1/2 mx-auto bg-green-300 rounded-md text-green-600 p-3 text-center mb-2"
+        >
+          Item 1
+        </li>
+        <li
+          class="w-1/2 mx-auto bg-green-300 rounded-md text-green-600 p-3 text-center mb-2"
+        >
+          Item 2
+        </li>
+        <li
+          class="w-1/2 mx-auto bg-green-300 rounded-md text-green-600 p-3 text-center mb-2"
+        >
+          Item 3
+        </li>
+        <li
+          class="w-1/2 mx-auto bg-green-300 rounded-md text-green-600 p-3 text-center mb-2"
+        >
+          Item 4
+        </li>
+        <li
+          class="w-1/2 mx-auto bg-green-300 rounded-md text-green-600 p-3 text-center mb-2"
+        >
+          Item 5
+        </li>
+      </ul>
+    </div>
   </body>
 </html>

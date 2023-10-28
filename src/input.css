@@ -1,3 +1,16 @@
+:root {
+  --warna-pink: 255 117 160;
+  --warna-yellow: 252 227 138;
+  --warna-blue: 149 225 211;
+
+  --warna-tema: var(--warna-pink);
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.kotak {
+  @apply w-[100px] h-[100px] m-10  flex;
+  background-color: theme(colors.isBlue / 35%);
+}
